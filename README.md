@@ -25,9 +25,9 @@ So we set our sights on exploring how we could use NLP in our personal or profes
 
 ## Step-by-Step:
 
-STEP 1: Import dependancies.
+**STEP 1:** Import dependancies.
 
-STEP 2: Scrape Chicago Wikipedia page and extract a summary.
+**STEP 2:** Scrape Chicago Wikipedia page and extract a summary.
 
 ```
 import wikipedia
@@ -36,7 +36,7 @@ chicago_summary = chicago_summary.replace('\n','').replace("\'","")
 chicago_summary
 ```
 
-STEP 3: Load English NLP model.
+**STEP 3:** Load English NLP model.
 
 ```
 import spacy
@@ -44,20 +44,20 @@ import textacy.extract
 nlp = spacy.load('en_core_web_lg')
 ```
 
-STEP 4: Specify the text that's being used and use spaCy to parse through the text.
+**STEP 4:** Specify the text that's being used and use spaCy to parse through the text.
 
 ```
 text = chicago_summary
 doc = nlp(text)
 ```
 
-STEP 5: Extract structured sentences.
+**STEP 5:** Extract structured sentences.
 
 ```
 statements = textacy.extract.semistructured_statements(doc, "Chicago")
 ```
 
-STEP 6: Print fact summary.
+**STEP 6:** Print fact summary.
 
 ```
 print("Here are a few facts about Chicago:")
@@ -91,16 +91,16 @@ Here are a few facts about Chicago:
 
 ## Step-by-Step:
 
-STEP 1: Import dependancies including **nltk.download("all")** which will download all NLTK sub-libraries.
+**STEP 1:** Import dependancies including **nltk.download("all")** which will download all NLTK sub-libraries.
 
 
-STEP 2: Read in CSV that contains examples of spam text messages.
+**STEP 2:** Read in CSV that contains examples of spam text messages.
 
 ```
 messages = pd.read_csv("spam.csv", encoding = 'latin-1')
 ```
 
-STEP 3: Clean-up CSV format.
+**STEP 3:** Clean-up dataframe.
 
 ```
 messages = messages.drop(labels = ["Unnamed: 2", "Unnamed: 3", "Unnamed: 4"], axis = 1)
@@ -114,5 +114,56 @@ messages.columns = ["category", "text"]
 * [**Wikipedia**](https://pypi.org/project/wikipedia/#targetText=Project%20description,Wikipedia%20data%2C%20not%20getting%20it.)
 * [**spaCy**](https://spacy.io/) 
 * [**Textacy**](https://pypi.org/project/textacy/0.3.1/)
+
+# Redacting Sensitive Information From Documents
+
+## Libraries Used:
+
+* placeholder
+* placeholder
+
+# Building A Chatbot
+
+## Libraries Used:
+
+* [**Celery**](http://www.celeryproject.org/)
+* [**OS**](https://www.pythonforbeginners.com/os/pythons-os-module)
+* [**JSON**](https://www.w3schools.com/python/python_json.asp)
+* [**Sys**](https://www.tutorialsteacher.com/python/sys-module)
+* [**Requsts**](https://realpython.com/python-requests/)
+
+## Sources to Reference When Starting:
+* https://moz.com/blog/chat-bot
+* https://botwiki.org/
+* https://chatbotslife.com/
+
+
+## Step-by-Step:
+**STEP 1:** Design.
+   * Conversation flow(diagraming helps)use best practices
+   
+**STEP 2:** Build & Test.
+   * Create a conversation in Dialogflow
+       * Create an agent
+       * Recognize intents (questions)
+       * Trigger right response (answers)
+       * Test/Train to validate
+
+**STEP 3:** Integrate external code (Python & Json docs).
+
+**STEP 4:** Deploy to Heroku.
+
+**Our Intents:**
+
+* What is NLP? What does NLP do?
+* What is spacy? What does spacey do?
+* What is textacy? What does textacy do?
+
+**Final Notes:**
+
+Bots take a long time to build and we were able to get as far as we did with our bot thanks to sources mentioned above which were willing to share their code and process that took months of research and testing. We ran out of time but plan to continue toruble-shooting until we are able to sucessfully deploy ‘brelibot’
+
+
+
 
 
