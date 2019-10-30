@@ -1,0 +1,32 @@
+[
+  {
+    "value": "spaCy",
+    "synonyms": [
+      "spaCy"
+    ]
+  },
+  {
+    "value": "NLP",
+    "synonyms": [
+      "NLP"
+    ]
+  },
+  {
+    "value": "textacy",
+    "synonyms": [
+      "textacy"
+    ]
+  },
+  {
+    "value": "processing",
+    "synonyms": [
+      "processing"
+    ]
+  },
+  {
+    "value": "language",
+    "synonyms": [
+      "language"
+    ]
+  }
+]

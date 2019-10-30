@@ -1,0 +1,49 @@
+{
+  "id": "cc16337b-da47-42e7-a617-3c6ed571a99b",
+  "name": "textacy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9cf2d297-d53c-423d-9e40-c50074599eae",
+          "required": false,
+          "dataType": "@sys.unit-information-name",
+          "name": "unit-information-name",
+          "value": "$unit-information-name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "textacy is a Python library for performing a variety of natural language processing (NLP) tasks, built on the high-performance spacy library. With the fundamentals – tokenization, part-of-speech tagging, dependency parsing, etc. – delegated to another library, textacy focuses on the tasks that come before and follow after.",
+            "Python library",
+            "Clean and normalize raw text, before analyzing it",
+            "Access and filter basic linguistic elements, such as words and ngrams, noun chunks and sentences"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

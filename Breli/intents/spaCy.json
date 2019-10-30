@@ -1,0 +1,49 @@
+{
+  "id": "5f860b2f-594b-488c-9ffb-1cbfb5e2c670",
+  "name": "spaCy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "56a719b6-c401-48fc-9c8e-4db8739264f2",
+          "required": false,
+          "dataType": "@sys.unit-information-name",
+          "name": "unit-information-name",
+          "value": "$unit-information-name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "spaCy is a free open-source library for Natural Language Processing in Python",
+            "spaCy is designed specifically for production use and helps you build applications that process and “understand” large volumes of text. It can be used to build information extraction or natural language understanding systems, or to pre-process text for deep learning.",
+            "open-source library",
+            "focuses on providing software for production usage."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
