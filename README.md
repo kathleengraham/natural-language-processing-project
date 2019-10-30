@@ -131,7 +131,7 @@ for statement in statements:
 
 ## Final Summary: 
 
-Unfortunately, we weren't able to get the summary to print in Spanish. 
+While we were able to get a summary to print in Spanish in STEP 2, we were unable to do so in STEP 6. 
 
 # Filtering Spam SMS Messages
 
