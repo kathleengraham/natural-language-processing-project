@@ -26,10 +26,15 @@ So we set our sights on exploring how we could use NLP in our personal or profes
 
 **STEP 1:** Import dependancies.
 
+```
+import wikipedia
+import spacy
+import textacy.extract
+```
+
 **STEP 2:** Scrape Chicago Wikipedia page and extract a summary.
 
 ```
-import wikipedia
 chicago_summary = wikipedia.WikipediaPage(title = 'Chicago').summary
 chicago_summary = chicago_summary.replace('\n','').replace("\'","")
 chicago_summary
@@ -38,8 +43,6 @@ chicago_summary
 **STEP 3:** Load English NLP model.
 
 ```
-import spacy
-import textacy.extract
 nlp = spacy.load('en_core_web_lg')
 ```
 
@@ -85,6 +88,10 @@ As you can see, we were able to scan the entire Wikipedia page and extract a con
 ## Step-by-Step:
 
 **STEP 1:** Import dependancies.
+```
+import spacy
+import textacy.extract
+```
 
 **STEP 2:** Set language to Spanish then scrape Chicago Wikipedia page and extract a summary.
 
@@ -101,8 +108,6 @@ summary
 **STEP 3:** Load Spanish NLP model.
 
 ```
-import spacy
-import textacy.extract
 nlp = spacy.load('es_core_web_lg')
 ```
 
@@ -131,7 +136,7 @@ for statement in statements:
 
 ## Final Summary: 
 
-While we were able to get a summary to print in Spanish in STEP 2, we were unable to do so in STEP 6. 
+Unfortunately, we weren't able to get the summary to print in Spanish. 
 
 # Filtering Spam SMS Messages
 
