@@ -1,0 +1,70 @@
+[
+  {
+    "id": "c9b061f4-88eb-460a-bf00-0f0f99e29ba8",
+    "data": [
+      {
+        "text": "What ",
+        "userDefined": false
+      },
+      {
+        "text": "does",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " spacy ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "012cc1ab-e3dd-4160-be55-90630f6607f1",
+    "data": [
+      {
+        "text": "What is spacy used for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46f69f21-c632-46a0-9c7f-18ef365c032c",
+    "data": [
+      {
+        "text": "What\u0027s spacy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a3d618e-17a4-43d0-8b69-ea8c73139962",
+    "data": [
+      {
+        "text": "What is ",
+        "userDefined": false
+      },
+      {
+        "text": "spaCy",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

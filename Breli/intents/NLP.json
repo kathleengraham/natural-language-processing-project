@@ -1,0 +1,55 @@
+{
+  "id": "f429d003-f4c1-4e10-acfc-be46b6d673bd",
+  "name": "NLP",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "NLP",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "511951e5-c30f-49fb-9e91-85f654a1d9be",
+          "required": false,
+          "dataType": "@sys.unit-information-name",
+          "name": "NLP",
+          "value": "$NLP",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Natural language processing (NLP) is a subfield of linguistics, computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human (natural) languages, in particular how to program computers to process and analyze large amounts of natural language data.\nChallenges in natural language processing frequently involve speech recognition, natural language understanding, and natural language generation.",
+            "NLP stands for Natural-Language Programming.",
+            "pseudoscientific approach to communication",
+            "language detection",
+            "artificial intelligence concerned with the interactions between computers and human languages"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "AnswerQuestions"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

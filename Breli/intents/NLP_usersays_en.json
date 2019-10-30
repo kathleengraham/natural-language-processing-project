@@ -1,0 +1,136 @@
+[
+  {
+    "id": "a4591653-69a8-4f91-a39e-7c1fde5265b8",
+    "data": [
+      {
+        "text": "can you tell me more about natural ",
+        "userDefined": false
+      },
+      {
+        "text": "language",
+        "alias": "NLP",
+        "meta": "@sys.unit-information-name",
+        "userDefined": true
+      },
+      {
+        "text": " process",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8092504f-e089-470c-82a1-b04954bd6000",
+    "data": [
+      {
+        "text": "What does natural language processing mean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b87ea0c2-4944-4367-b103-bf89a21529f8",
+    "data": [
+      {
+        "text": "What is natural language ",
+        "userDefined": false
+      },
+      {
+        "text": "processing",
+        "alias": "NLP",
+        "meta": "@sys.unit-information-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ccabd355-f46d-41cb-b0d7-d43d0ef40a2e",
+    "data": [
+      {
+        "text": "What\u0027s NLP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f2848c40-795c-41d0-8e35-67a02f11d497",
+    "data": [
+      {
+        "text": "Can you tell me more about NLP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9b430d41-71ae-4d29-ab55-4b0c4fda6d8a",
+    "data": [
+      {
+        "text": "What does ",
+        "userDefined": false
+      },
+      {
+        "text": "NLP",
+        "alias": "NLP",
+        "meta": "@sys.unit-information-name",
+        "userDefined": true
+      },
+      {
+        "text": " mean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2db92313-b5f3-4d74-8051-de59044c44de",
+    "data": [
+      {
+        "text": "What does NLP stand for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2b050d43-c04e-4cf6-b3fd-5e5bc95cf9a9",
+    "data": [
+      {
+        "text": "What is NLP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8751e2e1-3355-4cab-8884-4eea7fdb3496",
+    "data": [
+      {
+        "text": "What\u0027s Natural Language Processing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

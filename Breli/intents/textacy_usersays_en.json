@@ -1,0 +1,56 @@
+[
+  {
+    "id": "a62f61a6-5ba3-4ca8-b274-fd69719d5870",
+    "data": [
+      {
+        "text": "what is textacy used for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8f815e04-d91c-4119-bd94-b329ea259e82",
+    "data": [
+      {
+        "text": "what does textacy do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9931d599-ce02-4033-a3ed-409dbe14995f",
+    "data": [
+      {
+        "text": "what\u0027s textacy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f5c5a024-874c-4fa5-aa63-a91cc4691d91",
+    "data": [
+      {
+        "text": "What is ",
+        "userDefined": false
+      },
+      {
+        "text": "textacy",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
