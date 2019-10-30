@@ -81,19 +81,24 @@ Here are a few facts about Chicago:
 * [**Wikipedia**](https://pypi.org/project/wikipedia/#targetText=Project%20description,Wikipedia%20data%2C%20not%20getting%20it.)
 * [**spaCy**](https://spacy.io/) 
 * [**Textacy**](https://pypi.org/project/textacy/0.3.1/)
+* [**Requests**](https://realpython.com/python-requests/)
+
 
 ## Step-by-Step:
 
 **STEP 1:** Import dependancies.
 
-**STEP 2:** Scrape Chicago Wikipedia page and extract a summary.
+**STEP 2:** Set language to Spanish then scrape Chicago Wikipedia page and extract a summary.
 
 ```
-import wikipedia
-chicago_summary = wikipedia.WikipediaPage(title = 'Chicago').summary
-chicago_summary = chicago_summary.replace('\n','').replace("\'","")
-chicago_summary
+wikipedia.set_lang('es')
+summary = wikipedia.summary('Chicago')
+summary = summary.replace('\n','').replace("\'","").replace("[1]","").replace("[2]","").replace("[3]","").replace("[4]","").replace("[5]","").replace("[6]","").replace("[7]","").replace("\u200b","")
+summary
 ```
+
+![image](image.png)
+
 
 **STEP 3:** Load Spanish NLP model.
 
@@ -178,7 +183,7 @@ messages.columns = ["category", "text"]
 * [**OS**](https://www.pythonforbeginners.com/os/pythons-os-module)
 * [**JSON**](https://www.w3schools.com/python/python_json.asp)
 * [**Sys**](https://www.tutorialsteacher.com/python/sys-module)
-* [**Requsts**](https://realpython.com/python-requests/)
+* [**Requests**](https://realpython.com/python-requests/)
 
 ## Sources to Reference When Starting:
 * https://moz.com/blog/chat-bot
@@ -188,7 +193,7 @@ messages.columns = ["category", "text"]
 
 ## Step-by-Step:
 **STEP 1:** Design.
-   * Conversation flow(diagraming helps)use best practices
+   * Conversation flow(diagraming helps)use best practices.
    
 **STEP 2:** Build & Test.
    * Create a conversation in Dialogflow
@@ -209,7 +214,9 @@ messages.columns = ["category", "text"]
 
 **Final Notes:**
 
-Bots take a long time to build and we were able to get as far as we did with our bot thanks to sources mentioned above which were willing to share their code and process that took months of research and testing. We ran out of time but plan to continue toruble-shooting until we are able to sucessfully deploy ‘brelibot’
+Bots take a long time to build and we were able to get as far as we did with our bot thanks to sources mentioned above which were willing to share their code and process that took months of research and testing. We ran out of time but plan to continue toruble-shooting until we are able to sucessfully deploy ‘Brelibot’.
+
+![image](image2.png)
 
 
 
