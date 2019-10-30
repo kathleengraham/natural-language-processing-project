@@ -73,8 +73,8 @@ def add(app_code,location_code,x, y):
 
 #--- End of test ---#
 
-    # Printing for debugging
-    json_key = json.load(open('agent.json'))
-    print (app_code,location_code,sublocation, "json key is: ", json_key)
+# Printing for debugging
+json_key = json.load(open('agent.json'))
+print (app_code,location_code,sublocation, "json key is: ", json_key)
 
   
