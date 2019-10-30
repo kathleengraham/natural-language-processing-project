@@ -65,14 +65,12 @@ for statement in statements:
     subject, verb, fact = statement
     print(f" - {verb} {fact}")
 ```
+![image](image3.png)
 
-## Final Summary: 
+## Final Summary:
 
-Here are a few facts about Chicago:
- - is the most populous city in the U.S. state of Illinois and the third most populous city in the United States
- - is the principal city of the Chicago metropolitan area, often referred to as Chicagoland
- - was the fifth-largest city in the world
- - is an international hub for finance, culture, commerce, industry, education, technology, telecommunications, and transportation
+As you can see, we were able to scan the entire Wikipedia page and extract a concise summary (above).
+
 
 # Testing NLP in Spanish
 
